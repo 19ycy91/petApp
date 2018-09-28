@@ -1,0 +1,329 @@
+html {
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #7bf656, #6170FA);
+  background-size: contain;
+}
+
+#desc{
+  width: 400px;
+  margin-left: 50px;
+  margin-top:50px;
+  font-family: sans-serif;
+  font-size: 100%;
+  margin-bottom: 75px;
+}
+
+#title {
+  margin-top: 100px ;
+  margin-left: 50px;
+  font-family: sans-serif;
+
+}
+
+#nameofPet{
+  font-family: sans-serif;
+
+}
+
+.leftpane{
+  float: left;
+  width: 25%;
+
+}
+
+.middlepane{
+  float: left;
+  width: 50%;
+}
+
+.rightpane{
+  float: right;
+  width: 25%;
+
+}
+
+#imgcap{
+  width: 300px;
+  height: 300px;
+}
+
+#startButton{
+  /* left: 25%;
+  margin-bottom: -55%; */
+
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#petname{
+  /* left: 25%;
+  margin-bottom: -55%; */
+  font-family: sans-serif;
+  margin-left: -28px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#img1{
+  margin-left: -80px;
+}
+#img2{
+
+}
+#img3{
+  position:relative;
+  margin-left: -10px;
+  top: -30px;
+
+}
+#img4{
+  position:relative;
+  top: -30px;
+
+}
+
+#startButton:hover {
+  background: linear-gradient(-90deg, #C4FFAE, #87CEFA);
+  border-radius: 35px;
+}
+
+
+#poDex{
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Health{
+  position: relative;
+  margin-left: 55%;
+  margin-top: -30%;
+  font-size: 100%;
+  font-weight: bold;
+  color: yellow;
+
+}
+
+
+#Strength{
+  margin-left: 55%;
+  margin-top: 0%;
+  font-size: 100%;
+  font-weight: bold;
+  color: yellow;
+
+}
+
+
+#Knowlege{
+  position: relative;
+  margin-left: 55%;
+  margin-top: 0%;
+  font-size: 100%;
+  font-weight: bold;
+  color: yellow;
+
+}
+
+
+#avgScore{
+  position: relative;
+  margin-left: 55%;
+  margin-top: 5%;
+  font-size: 150%;
+  font-weight: bold;
+  color: yellow;
+}
+
+#turnsLeft{
+
+  margin-top: 13%;
+  padding-bottom: -30%;
+  margin-left: 40%;
+  font-size: 150%;
+  font-weight: bold;
+  color: yellow;
+
+}
+
+#Gym{
+  position: relative;
+  margin-top: -50%;
+  margin-left: 33%;
+
+}
+
+#Tan{
+  /* position: relative; */
+  margin-top: -10%;
+  margin-left: 5%;
+
+}
+
+#Laundry{
+  /* position: relative; */
+  margin-top: -10%;
+  margin-left: 5%;
+
+}
+
+@media (max-width: 800px){
+  .leftpane{
+    float: left;
+    width: 100%;
+
+  }
+
+  .middlepane{
+    float: right;
+    width: 100%;
+
+  }
+
+  .rightpane{
+    float: left;
+    width: 100%;
+
+
+  }
+  #imgcap{
+    width: 400px;
+    height: 300px;
+  }
+  #petname{
+    /* left: 25%;
+    margin-bottom: -55%; */
+    font-family: sans-serif;
+    margin-left: 0px;
+  }
+  #img1{
+    margin-left: 0px;
+  }
+  #img2{
+
+  }
+  #img3{
+    position:relative;
+    margin-left: 70px;
+    top: -30px;
+
+  }
+  #img4{
+
+  }
+  #poDex{
+    width: 100%;
+  }
+
+  #Health{
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 1%;
+
+
+  }
+
+
+  #Strength{
+    width: 100%;
+    margin-left: 5%;
+
+
+  }
+
+
+  #Knowlege{
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 0%;
+
+  }
+
+
+  #avgScore{
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 0%;
+  }
+
+  #turnsLeft{
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 0%;
+
+  }
+
+  #Gym{
+    width: 60px;
+    margin-left: 5%;
+    margin-top: 0%;
+
+  }
+
+  #Tan{
+    width: 60px;
+
+  }
+
+  #Laundry{
+    width: 60px;
+
+  }
+
+}
+
+
+table {
+  display: block;
+  margin: auto;
+  margin-top:50px;
+  width: 80%;
+  background-color: white;
+  opacity: .75;
+  margin-top: -17px;
+  border-radius: 5%;
+  font-family: sans-serif;
+
+
+
+ }
+
+
+th {
+  /*border-bottom: solid thin white;*/
+  color: black;
+
+
+}
+
+
+thead{
+    width: 100%;
+    display: block;
+
+    /*display: block;*/
+
+}
+tbody{
+  width: 100%;
+  overflow-y:scroll;
+  height:600px;
+  display: block;
+
+}
+
+#resultitle{
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#playAgain{
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+}
